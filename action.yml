@@ -1,4 +1,4 @@
-name: Puppeteer Container
+name: Puppeteer-Container-test
 description: A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API
 author: BVM
 runs:
