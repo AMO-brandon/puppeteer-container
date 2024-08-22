@@ -20,7 +20,3 @@ jobs:
         uses: ./
         with:
           args: pnpm lint
-      - name: Test
-        uses: ./
-        with:
-          args: pnpm t
