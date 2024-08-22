@@ -7,7 +7,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     container:
-      image: ianwalter/pnpm:v1.3.0
+      image: public.ecr.aws/r9p1t0l5/puppet-chrome-node:latest
     timeout-minutes: 10
     steps:
       - name: Checkout
