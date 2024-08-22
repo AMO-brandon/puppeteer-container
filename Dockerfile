@@ -1,5 +1,4 @@
 FROM node:18-bullseye
-
 LABEL "com.github.actions.name"="Puppeteer Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API"
 LABEL "com.github.actions.icon"="globe"
