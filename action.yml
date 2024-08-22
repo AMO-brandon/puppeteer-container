@@ -1,6 +1,6 @@
 name: Puppeteer Container
 description: A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API
-author: Ian Walter
+author: BVM
 runs:
   using: docker
   image: Dockerfile
