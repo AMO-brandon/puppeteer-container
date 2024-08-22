@@ -1,4 +1,4 @@
-FROM ianwalter/pnpm:v1.3.0
+FROM node:18-bullseye
 
 LABEL "com.github.actions.name"="Puppeteer Container"
 LABEL "com.github.actions.description"="A GitHub Action / Docker image for Puppeteer, the Headless Chrome Node API"
@@ -9,6 +9,7 @@ LABEL "repository"="http://github.com/ianwalter/puppeteer-container"
 LABEL "homepage"="http://github.com/ianwalter/puppeteer-container"
 LABEL "maintainer"="Ian Walter <pub@ianwalter.dev>"
 
+RUN npm i -g pnpm
 RUN  apt-get update \
      # See https://crbug.com/795759
      && apt-get install -yq libgconf-2-4 \
