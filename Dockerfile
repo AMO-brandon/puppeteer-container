@@ -8,6 +8,9 @@ LABEL "repository"="http://github.com/ianwalter/puppeteer-container"
 LABEL "homepage"="http://github.com/ianwalter/puppeteer-container"
 LABEL "maintainer"="Ian Walter <pub@ianwalter.dev>"
 
+ENV DOCKER_BUILDKIT=0
+ENV COMPOSE_DOCKER_CLI_BUILD=0
+
 RUN npm i -g pnpm
 RUN  apt-get update \
      # See https://crbug.com/795759
